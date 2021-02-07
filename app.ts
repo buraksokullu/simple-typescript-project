@@ -1,9 +1,9 @@
-function addNumber(n1: number, n2: number) {
+function add(n1: number, n2: number) {
   return n1 + n2;
 }
 
-const number1 = 5;
-const number2 = 2.8;
+function printResult(num: number): void {
+  console.log("result " + num);
+}
 
-const result = addNumber(number1, number2);
-console.log(result);
+printResult(add(5, 12));
